@@ -1,18 +1,16 @@
 #include<stdio.h>
 /**
- * main - Entry point
+ * main - else if c
+ *
+ *Description: 'the program's description'
  *
  * Return: Always 0 (success)
  */
-void putchar(void);
 int main(void)
 {
-	putchar();
+	char c = 'a';
+
+	while (c < 'z')
+		putchar(c);
 	return (0);
-}
-void putchar(void)
-{
-	printf("\n\nLower case characters:\n");
-	for (i = 'a'; i <= 'z'; i++)
-		printf("%c", i);
 }
