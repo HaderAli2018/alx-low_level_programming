@@ -14,6 +14,10 @@ int main(void)
 		ascii = (char)i;
 		putchar(ascii);
 	}
+	for (ascii = 'a'; ascii <= 'f'; ascii++)
+	{
+		putchar(ascii);
+	}
 	putchar('\n');
 	return (0);
 }
