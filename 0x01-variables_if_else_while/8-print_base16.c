@@ -7,16 +7,16 @@
 int main(void)
 {
 	int i;
-	char ascii, x;
+	char ascii;
 
 	for (i = 48; i < 58; i++)
 	{
 		ascii = (char)i;
 		putchar(ascii);
 	}
-	for (x = 'a'; x <= 'f'; x++)
+	for (ascii = 'a'; ascii <= 'f'; ascii++)
 	{
-		putchar(x);
+		putchar(ascii);
 	}
 	putchar('\n');
 	return (0);

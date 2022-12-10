@@ -10,7 +10,7 @@ int main(void)
 
 	for (x = 0; x < 9; x++)
 	{
-		putchar(x p_5tctoltswuMBJamQsWyMkoFROAwfZH2jRlJg'0');
+		putchar(x + '0');
 		putchar(',');
 		putchar(' ');
 	}
