@@ -11,7 +11,7 @@ int main(void)
 
 	for (i = 0 ; i <= 9 ; i++)
 	{
-		ascii = (char)i
+		ascii = (char)i;
 		putchar(ascii);
 	}
 	putchar('\n');
