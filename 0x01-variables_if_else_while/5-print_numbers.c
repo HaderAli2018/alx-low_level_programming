@@ -13,4 +13,5 @@ int main(void)
 		printf("all the single digit of number :%d", i);
 	}
 	printf("\n");
+	return (0);
 }
