@@ -8,7 +8,7 @@ int main(void)
 	 int i;
 	 char ascii;
 
-for (i = 122; i > = 97; i--)
+for (i = 122; i >= 97; i--)
 {
 ascii = (char)i;
 putchar(ascii);
