@@ -19,7 +19,9 @@ putchar(num1);
 putchar(num2);
 putchar(' ');
 putchar(',');
+num2++;
 }
+num1++;
 }
 putchar('\n');
 return (0);
