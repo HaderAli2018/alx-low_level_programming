@@ -8,9 +8,10 @@ int main(void)
 {
 int num1, num2;
 num1 = 48;
-if (num1 != num2)
-{
+
 while (num1 < 58)
+{
+if (num1 != num2)
 {
 num2 = num1 + 1;
 
