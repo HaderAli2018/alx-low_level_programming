@@ -15,11 +15,14 @@ num2 = 48;
 
 while (num2 < 58)
 {
+if (num1 != num2)
+{
 putchar(num1);
 putchar(num2);
 putchar(' ');
 putchar(',');
 num2++;
+}
 }
 num1++;
 }
