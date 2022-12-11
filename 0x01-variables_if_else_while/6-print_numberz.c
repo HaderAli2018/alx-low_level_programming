@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-*main - Entry point
+* main - Entry point
 *
-*Return: 0 if Success
+* Return: 0 If Success
 */
 int main(void)
 {
@@ -10,8 +10,8 @@ int main(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		printf("%d", i);
+		putchar(i + '0');
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
