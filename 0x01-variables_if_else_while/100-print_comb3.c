@@ -20,8 +20,8 @@ putchar(num1);
 putchar(num2);
 if (num1 != 56)
 {
-putchar(' ');
 putchar(',');
+putchar(' ');
 }
 num2++;
 }
