@@ -20,7 +20,7 @@ putchar(k + '0');
 putchar(j + '0');
 if (i < 789)
 {
-pucchar(',');
+putchar(',');
 putchar(' ');
 }
 }
