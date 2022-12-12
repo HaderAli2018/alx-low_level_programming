@@ -6,7 +6,6 @@
 */
 int main(void)
 {
-int i, j, k, l;
 char digit[4];
 for (int i = 0; i < 8; i++)
 {
