@@ -13,7 +13,7 @@ for (j = i; j <8; j++)
 {
 for (k = j; k < 8; k++)
 {
-for (l = 1; l <= 8; l++)
+for (l = 1; l < 8; l++)
 {
 putchar(i + '0');
 putchar(j + '0');
