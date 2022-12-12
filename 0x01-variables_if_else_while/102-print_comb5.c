@@ -6,14 +6,15 @@
 */
 int main(void)
 {
-int i, j, k , l;
+int i, j, k , l, h = 1;
 for (i = 0 ; i < 8 ; i++)
 {
 for (j = i; j <8; j++)
 {
 for (k = j; k < 8; k++)
 {
-for (l =1 ; l <= 9; l++)
+
+for (l = h; l <= 9; l++)
 {
 putchar(i + '0');
 putchar(j + '0');
@@ -23,7 +24,7 @@ putchar(l + '0');
 putchar(',');
 putchar(' ');
 }
-l = 0;
+h = 0;
 }
 }
 }
