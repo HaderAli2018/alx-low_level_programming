@@ -19,11 +19,8 @@ while (num2 < 58)
 {
 putchar(num1);
 putchar(num2);
-if (putchar(num1) != 57 && putchar(num2) != 58)
-{
 putchar(' ');
 putchar(',');
-}
 num2++;
 }
 }
