@@ -14,7 +14,7 @@ while (num1 < 58)
 if (num1 != num2)
 {
 num2 = num1 + 1;
-while(num2 < 58)
+while (num2 < 58)
 {
 putchar(num1);
 putchar(num2);
