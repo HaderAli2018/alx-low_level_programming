@@ -23,6 +23,7 @@ putchar(l + '0');
 putchar(',');
 putchar(' ');
 }
+l = 0;
 }
 }
 }
