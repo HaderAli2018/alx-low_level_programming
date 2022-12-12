@@ -7,25 +7,19 @@
 int main(void)
 {
 int i, j, k, l;
-
-i = 0;
-while (i < 1000)
+char digit[4];
+for (int i = 0; i < 8; i++)
 {
-j = i / 100; /* hundreds */
-k = (i / 10) % 10; /* tens */
-l = i % 100; /* units */
-if (j < k && k < l)
-{putchar(l + '0');
-putchar(k + '0');
-putchar(j + '0');
-if (i < 789)
+for (int j = i + 1; j < 9; j++)
 {
-putchar(',');
-putchar(' ');
+for (int k = j + 1; k < 10; k++)
+{digit[0] = i + '0';
+digit[1] = j + '0';
+digit[2] = k + '0';
+digit[3] = '\0';
+printf("%s\n", digit);
 }
 }
-i++;
 }
-putchar('\n');
 return (0);
 }
