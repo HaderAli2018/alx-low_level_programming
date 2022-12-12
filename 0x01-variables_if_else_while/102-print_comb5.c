@@ -6,12 +6,12 @@
 */
 int main(void)
 {
-int i, j, k , l, h = 1;
+int i, j, k , l, h =  1, o = 1;
 for (i = 0 ; i < 8 ; i++)
 {
-for (j = i; j <8; j++)
+for (j = o; j <8; j++)
 {
-for (k = j; k < 8; k++)
+for (k = j; k <= 8; k++)
 {
 
 for (l = h; l <= 9; l++)
