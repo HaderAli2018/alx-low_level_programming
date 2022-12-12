@@ -9,7 +9,7 @@ int main(void)
 int i, j, k , l, h =  1, o = 1;
 for (i = 0 ; i < 8 ; i++)
 {
-for (j = o; j <8; j++)
+for (j = 0; j <8; j++)
 {
 for (k = j; k <= 8; k++)
 {
