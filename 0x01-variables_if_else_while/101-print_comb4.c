@@ -16,8 +16,11 @@ for (k = j + 1; k < 10; k++)
 putchar(i + '0');
 putchar(j + '0');
 putchar(k + '0');
-putchar('\n');
+if (i != 7)
+{
 putchar(',');
+putchar('\n');
+}
 }
 }
 }
