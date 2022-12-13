@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <ctype.h>
 /**
 *_islower -checks for lowercase
 *Return: 1 if success and 0 if failed
