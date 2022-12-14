@@ -14,10 +14,10 @@ void jack_bauer(void)
 		if (h <= 9 && m <= 9)
 		{
 		_putchar('0');
-		_putchar(h + '0');
+		_putchar(h);
 		_putchar(':');
 		_putchar('0');
-		_putchar(m + '0');
+		_putcha((m);
 		}
 		else
 		{
