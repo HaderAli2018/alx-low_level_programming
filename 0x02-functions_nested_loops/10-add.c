@@ -12,7 +12,7 @@ int add(int x, int y)
 	res = x + y;
 	if (x == 0 && y == 0)
 	{
-	_putchar(0);
+	_putchar(0 + '0');
 	}
 	_putchar('0' + (res / 10));
 	_putchar('0' + (res % 10));
