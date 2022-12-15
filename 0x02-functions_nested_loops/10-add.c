@@ -10,6 +10,10 @@ int add(int x, int y)
 	int res;
 
 	res = x + y;
+	if (x == 0 && y == 0)
+	{
+	_putchar('0');
+	}
 	_putchar('0' + res);
 	return (res);
 }
