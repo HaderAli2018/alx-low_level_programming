@@ -9,7 +9,8 @@ int add(int x, int y)
 {
 	int res;
 
+	if(
 	res = x + y;
-	_putchar(res + '0');
+	_putchar(res +'0');
 	return (res);
 }
