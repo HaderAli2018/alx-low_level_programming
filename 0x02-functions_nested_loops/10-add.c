@@ -22,8 +22,5 @@ int add(int x, int y)
 	{
 	return (x);
 	}
-	if (x > 0 && y > 0)
-	{
 	return (res);
-	}
 }
