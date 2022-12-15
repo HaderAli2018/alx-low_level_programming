@@ -18,7 +18,6 @@ int add(int x, int y)
 	return (y);
 	if (y == 0)
 	return (x);
-	_putchar('0' + (res / 10));
-	_putchar('0' + (res % 10));
+	if (x > 0 & y > 0)
 	return (res);
 }
