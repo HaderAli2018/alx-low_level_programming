@@ -14,6 +14,7 @@ int add(int x, int y)
 	{
 	_putchar(0);
 	}
-	_putchar('0' + res);
+	putchar((res/10)+'0');
+	putchar((res%10)+'0');
 	return (res);
 }
