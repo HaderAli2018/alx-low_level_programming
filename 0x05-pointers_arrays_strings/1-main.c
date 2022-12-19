@@ -5,8 +5,8 @@
 *Return: Always 0.
 */
 int main(void)
-{int a;
-int b;
+{
+int a, b;
 
 a = 98;
 b = 42;
