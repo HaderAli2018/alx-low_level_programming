@@ -7,5 +7,5 @@
 void _puts(char *str)
 {
 	str = "hello pointer program";
-	puts(*str);
+	puts(str);
 }
