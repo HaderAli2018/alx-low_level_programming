@@ -12,6 +12,6 @@ int i;
 
 for (i = 0; i <= n; i++)
 {
-printf("the n number of array %d\n", a[i]);
+printf("%d\n", a[i]);
 }
 }
