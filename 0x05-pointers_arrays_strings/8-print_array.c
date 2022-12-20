@@ -19,4 +19,5 @@ printf(",");
 printf(" ");
 }
 }
+printf("\n");
 }
