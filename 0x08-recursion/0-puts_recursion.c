@@ -17,5 +17,4 @@ _putchar(c);
 p++;
 _puts_recursion(p);
 }
-_putchar('\n');
 }
