@@ -11,8 +11,10 @@ char c;
 
 p = s;
 if (*p != '\0')
+{
 c = *p;
 _putchar(c);
 p++;
 _puts_recursion(p);
+}
 }
