@@ -17,4 +17,8 @@ _putchar(c);
 p++;
 _puts_recursion(p);
 }
+else
+{
+_putchar('\n');
+}
 }
