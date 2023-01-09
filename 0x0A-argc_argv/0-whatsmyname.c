@@ -1,9 +1,10 @@
 #include<stdio.h>
+#include"main.h"
 /**
  * main - main funcrtion
  * @argc : int paramter
  * @argv : char paramter
- *Return : 0 if success
+ *Return: 0 if success
  */
 int main(int argc, char *argv[])
 {
