@@ -14,13 +14,15 @@ int mult = 1;
 
 if (argc < 2)
 {
-printf("Error\n");
+printf("Error");
+printf("\n");
 return (1);
 }
 else
 {
 mult = atoi(argv[1]) * atoi(argv[2]);
-printf("%d\n", mult);
+printf("%d", mult);
+printf("\n");
 return (0);
 }
 }
