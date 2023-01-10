@@ -14,7 +14,7 @@ unsigned int i;
 if (size > 0)
 {
 char *ptr = (char *)malloc(size);
-for (i = 0; i < size; i++)
+for (i = 0; i < size - 1; i++)
 {
 ptr[i] = c;
 }
