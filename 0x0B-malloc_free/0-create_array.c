@@ -14,11 +14,18 @@ char *ptr;
 if (size != 0)
 {
 ptr = (char *)malloc(size);
+if (ptr == 0)
+{
+return (NULL);
+}
+else
+{
 for (i = 0; i < size; i++)
 {
 ptr[i] = c;
 }
 return (ptr);
+}
 }
 else
 {
