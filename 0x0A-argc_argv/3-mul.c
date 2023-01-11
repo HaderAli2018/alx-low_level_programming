@@ -12,13 +12,7 @@ int main(int argc, char *argv[])
 {
 int mult, num1, num2;
 
-if (argc < 2)
-{
-printf("Error");
-printf("\n");
-return (1);
-}
-else
+if (argc == 3)
 {
 num1 = atoi(argv[1]);
 num2 = atoi(argv[2]);
@@ -27,4 +21,7 @@ printf("%d", mult);
 printf("\n");
 return (0);
 }
+printf("Error");
+printf("\n");
+return (1);
 }
