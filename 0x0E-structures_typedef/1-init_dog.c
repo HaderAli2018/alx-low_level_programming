@@ -8,9 +8,10 @@
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-struct dog old_one;
-d = &old_one;
+if (d != NULL)
+{
 (*d).name = old_one.name;
 (*d).age = old_one.age;
 (*d).owner = old_one.owner;
+}
 }
