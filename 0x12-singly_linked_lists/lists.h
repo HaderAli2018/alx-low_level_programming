@@ -1,5 +1,6 @@
 #ifndef LISTS_H
 #define LISTS_H
+#include<stdlib.h>
 /**
  * struct node - stuct contain 2 node
  * @str: char paramter
