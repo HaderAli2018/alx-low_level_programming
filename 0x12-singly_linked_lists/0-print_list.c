@@ -1,16 +1,10 @@
 #include<stdio.h>
 #include"lists.h"
 /**
- *print_list -  prints all the elements of a list_t list
- *@h: struct paramter
- *@Return: all element of list
+ * print_list -  prints all the elements of a list_t list
+ * @h: struct paramter
+ * Return: all element of list
  */
-typedef struct node
-{
-char *str;
-int len;
-struct node *next;
-} list_t;
 size_t print_list(const list_t *h)
 {
 size_t count;
